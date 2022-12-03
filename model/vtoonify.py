@@ -1,7 +1,9 @@
 import torch
 import numpy as np
-import math
+import math, os
 from torch import nn
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from model.stylegan.model import ConvLayer, EqualLinear, Generator, ResBlock
 from model.dualstylegan import AdaptiveInstanceNorm, AdaResBlock, DualStyleGAN
 import torch.nn.functional as F

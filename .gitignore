@@ -1,0 +1,8 @@
+*.pt
+*.zip
+*.npy
+*.dat*
+*.pth
+*_vtoonify_d_*.jpg
+*_vtoonify_t_*.jpg
+*__pycache__*

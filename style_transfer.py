@@ -223,6 +223,7 @@ if __name__ == "__main__":
             # we give parsing maps lower weight (1/16)
             inputs = torch.cat((x, x_p/16.), dim=1)
             # d_s has no effect when backbone is toonify
+            
             y_tilde = vtoonify(inputs, s_w.repeat(inputs.size(0), 1, 1), d_s = args.style_degree)        
             y_tilde = torch.clamp(y_tilde, -1, 1)
 
