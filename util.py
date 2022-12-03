@@ -11,7 +11,7 @@ from torch.nn import functional as F
 from torch import autograd
 from torch.nn import init
 import torchvision.transforms as transforms
-from model.stylegan.op import conv2d_gradfix
+from model.stylegan.op_cpu import conv2d_gradfix
 from model.encoder.encoders.psp_encoders import GradualStyleEncoder
 from model.encoder.align_all_parallel import get_landmark
     

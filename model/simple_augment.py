@@ -9,7 +9,7 @@ from torch.nn import functional as F
 import numpy as np
 
 from model.stylegan.distributed import reduce_sum
-from model.stylegan.op import upfirdn2d
+from model.stylegan.op_cpu import upfirdn2d
 
 
 class AdaptiveAugment:

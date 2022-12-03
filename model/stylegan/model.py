@@ -8,7 +8,7 @@ from torch import nn
 from torch.nn import functional as F
 from torch.autograd import Function
 
-from model.stylegan.op import FusedLeakyReLU, fused_leaky_relu, upfirdn2d, conv2d_gradfix
+from model.stylegan.op_cpu import FusedLeakyReLU, fused_leaky_relu, upfirdn2d, conv2d_gradfix
 
 class PixelNorm(nn.Module):
     def __init__(self):
