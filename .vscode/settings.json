@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Community Material Theme Ocean",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#013610",
+        "titleBar.activeBackground": "#014B17",
+        "titleBar.activeForeground": "#ECFFF2"
+    }
+}

@@ -1,0 +1,1 @@
+call python style_transfer_iterate.py --content ./data/Justin.jpg --scale_image --style_id 0 --style_degree 0.5 --output_path ./output/isekai --color_transfer --ckpt ./checkpoint/vtoonify_d_isekai/vtoonify_s_d_c.pt

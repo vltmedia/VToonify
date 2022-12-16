@@ -7,4 +7,13 @@
 *_vtoonify_t_*.jpg
 *__pycache__*
 
-             datas=[ ('./UAIDark.qss', '.'), ('./folder.png', '.'), ],
+data/*/images/*/*.jpg
+log/*/*.jpg
+output/*vtoonify_*.jpg
+output/isekai/*
+*.mdb
+output/*.mp4
+*.psd
+output/*_vtoonify_d.jpg
+output/*/*.jpg
+
